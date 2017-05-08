@@ -392,11 +392,37 @@ img {
   margin-top: 45px;
   margin-bottom: 25px;
   text-align: center;
-  font-size: 1.5081em;
+  font-size: 1.4em;
   line-height: 0.8281em;
   letter-spacing: 0.06em;
   color: #113f58;
   font-family: 'Helvetica Black';
+}
+.empresa .item i {
+  color: #113f58;
+}
+.empresa .item .title-consultoria {
+  margin-top: 20px;
+}
+.empresa .item .gestao {
+  margin-top: -50px;
+}
+.empresa .item ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 50px;
+}
+.empresa .item ul li {
+  margin-bottom: 5px;
+}
+.empresa .item ul li i {
+  color: #113f58;
+  margin-right: 10px;
+}
+.empresa .item ul li a {
+  text-decoration: none;
+  color: #113f58;
+  font-family: 'Helvetica Medium';
 }
 .empresa .item p {
   font-size: 1.5081em;
