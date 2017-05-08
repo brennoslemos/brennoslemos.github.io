@@ -335,9 +335,10 @@ img {
 .empresa h1 {
   text-align: center;
   display: block;
-  position: absolute;
-  left: 35%;
-  top: -56px;
+  position: relative;
+  /*left: 35%;*/
+  top: -137px !important;
+  margin: 0 auto;
   background-color: #fff;
   z-index: 99;
   width: 400px;
@@ -421,10 +422,10 @@ img {
     font-size: 0.8em;
     width: 19em;
     height: 2.5em;
-    top: -31px;
+    top: -112px !important;
     line-height: 2.5em;
     margin-bottom: -2.5em;
-    margin-left: -5em;
+    /*margin-left: -5em;*/
     padding-top: 0.5em;
   }
 
@@ -439,11 +440,6 @@ img {
   }
 }
 
-@media only screen and (max-width: 350px) {
-  .empresa h1 {
-    left: 30%;
-  }
-}
 /* Pessoas */
 .pessoas {
   padding: 80px 0;
@@ -452,11 +448,12 @@ img {
   margin-top: 60px;
 }
 .pessoas h1 {
-  text-align: center;
+ text-align: center;
   display: block;
-  position: absolute;
-  left: 35%;
-  top: -56px;
+  position: relative;
+  /*left: 35%;*/
+  top: -137px !important;
+  margin: 0 auto;
   background-color: #fff;
   z-index: 99;
   width: 400px;
@@ -534,13 +531,13 @@ img {
 }
 @media only screen and (max-width: 767px) {
   .pessoas h1 {
-    font-size: 0.9em;
-    width: 18em;
+    font-size: 0.8em;
+    width: 19em;
     height: 2.5em;
-    top: -35px;
+    top: -112px !important;
     line-height: 2.5em;
     margin-bottom: -2.5em;
-    margin-left: -5em;
+    /*margin-left: -5em;*/
     padding-top: 0.5em;
   }
 
@@ -560,11 +557,6 @@ img {
  
 }
 
-@media only screen and (max-width: 350px) {
-  .pessoas h1 {
-    left: 30%;
-  }
-}
 
 /* Clientes */
 .clientes {
