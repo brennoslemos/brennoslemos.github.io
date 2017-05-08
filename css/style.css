@@ -67,6 +67,7 @@ img {
   margin: 0;
 }
 
+
 .menu-nav .nav-logo .logo-menu {
   width: 32.5px;
   height: 34.75px;
@@ -75,6 +76,8 @@ img {
 .menu-nav .contato {
   margin-left: 30px;
   margin-right: 10px;
+  position: relative;
+  top: -5px;
 }
 .menu-nav .nav {
   display: block;
@@ -88,11 +91,17 @@ img {
   letter-spacing: 0.06em;
   transition: all .3s ease;
   margin-right: 10px;
+  position: relative;
+  top: -8px;
 }
 .menu-nav .nav:hover {
 
   border-radius: 50px;
   background: #113f58;
+}
+.redes {
+  top: -10px;
+  position: relative;
 }
 
 .redes li {
@@ -108,6 +117,9 @@ img {
 	text-align: center;
 	text-rendering: auto;
 }
+.redes {
+  margin-top: -10px;
+}
 .redes .icon {
   text-decoration: none;
   color: #113f58;
@@ -120,6 +132,7 @@ img {
 	background: #fff;
 	text-rendering: auto;
     transition: all .3s ease;
+  
 }
 .redes .icon:hover {
   color: #fff;
@@ -217,6 +230,9 @@ img {
   .menu-nav .nav-logo .logo-menu {
     text-align: center;
     margin: 0 auto;
+  }
+  .menu-nav .logo {
+    margin-bottom: 10px;
   }
 	
 }

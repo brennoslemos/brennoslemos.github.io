@@ -66,9 +66,18 @@ img {
   display: inline-block;
   margin: 0;
 }
+
+
+.menu-nav .nav-logo .logo-menu {
+  width: 32.5px;
+  height: 34.75px;
+}
+
 .menu-nav .contato {
   margin-left: 30px;
-  margin-right: 20px;
+  margin-right: 10px;
+  position: relative;
+  top: -5px;
 }
 .menu-nav .nav {
   display: block;
@@ -82,15 +91,17 @@ img {
   letter-spacing: 0.06em;
   transition: all .3s ease;
   margin-right: 10px;
+  position: relative;
+  top: -8px;
 }
 .menu-nav .nav:hover {
 
   border-radius: 50px;
   background: #113f58;
 }
-.menu-nav .nav-logo .logo-menu {
-  width: 43.333px;
-  height: 56px;
+.redes {
+  top: -10px;
+  position: relative;
 }
 
 .redes li {
@@ -106,6 +117,9 @@ img {
 	text-align: center;
 	text-rendering: auto;
 }
+.redes {
+  margin-top: -10px;
+}
 .redes .icon {
   text-decoration: none;
   color: #113f58;
@@ -118,6 +132,7 @@ img {
 	background: #fff;
 	text-rendering: auto;
     transition: all .3s ease;
+  
 }
 .redes .icon:hover {
   color: #fff;
@@ -215,6 +230,9 @@ img {
   .menu-nav .nav-logo .logo-menu {
     text-align: center;
     margin: 0 auto;
+  }
+  .menu-nav .logo {
+    margin-bottom: 10px;
   }
   
 	
@@ -348,9 +366,10 @@ img {
 .empresa h1 {
   text-align: center;
   display: block;
-  position: absolute;
-  left: 35%;
-  top: -56px;
+  position: relative;
+  /*left: 35%;*/
+  top: -137px !important;
+  margin: 0 auto;
   background-color: #fff;
   z-index: 99;
   width: 400px;
@@ -464,10 +483,10 @@ img {
     font-size: 0.8em;
     width: 19em;
     height: 2.5em;
-    top: -31px;
+    top: -112px !important;
     line-height: 2.5em;
     margin-bottom: -2.5em;
-    margin-left: -5em;
+    /*margin-left: -5em;*/
     padding-top: 0.5em;
   }
 
@@ -482,11 +501,6 @@ img {
   }
 }
 
-@media only screen and (max-width: 350px) {
-  .empresa h1 {
-    left: 30%;
-  }
-}
 /* Pessoas */
 .pessoas {
   padding: 80px 0;
@@ -496,9 +510,10 @@ img {
 .pessoas h1 {
   text-align: center;
   display: block;
-  position: absolute;
-  left: 35%;
-  top: -56px;
+  position: relative;
+  /*left: 35%;*/
+  top: -137px !important;
+  margin: 0 auto;
   background-color: #fff;
   z-index: 99;
   width: 400px;
@@ -580,13 +595,13 @@ img {
 }
 @media only screen and (max-width: 767px) {
   .pessoas h1 {
-    font-size: 0.9em;
-    width: 18em;
+    font-size: 0.8em;
+    width: 19em;
     height: 2.5em;
-    top: -35px;
+    top: -112px !important;
     line-height: 2.5em;
     margin-bottom: -2.5em;
-    margin-left: -5em;
+    /*margin-left: -5em;*/
     padding-top: 0.5em;
   }
 
@@ -606,11 +621,6 @@ img {
  
 }
 
-@media only screen and (max-width: 350px) {
-  .pessoas h1 {
-    left: 30%;
-  }
-}
 
 
 /*Isca*/
